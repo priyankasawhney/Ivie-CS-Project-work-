@@ -1,0 +1,96 @@
+h1 {
+    color:black;
+    border-left: 150px;  
+    font-size: 60px;
+
+
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+  
+}
+
+.menu{
+    margin-right: 30px;
+    
+}
+
+.menu a{
+    margin-left: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.item{
+    position: relative;
+}
+
+body{
+    background-image: url("paw1.jpg");
+    background-size: cover;
+}
+
+ .p1{
+     font-family: Georgia,serif;
+     font-size: 25px;
+
+ }
+ .p2{
+     font-family:Georgia,serif;
+     font-size: 25px;
+ }
+
+.menu a{
+    margin-left: 50px;
+
+}
+a:link{
+    color:(#f0e679);
+    
+}
+a:visited{
+    color:brown;
+}
+a:hover{
+    color: teal;
+}
+a:active{
+    color: magenta;
+}
+.image{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.tag{
+    font-size: 40px;
+    padding-top:20px;
+   color:darksalmon;
+}
+.footer{
+    align-items: flex-start;
+}
+
+
+
